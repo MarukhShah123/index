@@ -1,0 +1,477 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #ffffff;
+  padding: 10px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: fixed;
+  width: 100%;
+  top:0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #3f51b5;
+}
+
+.logo i {
+  font-size: 24px;
+  margin-right: 5px;
+}
+
+.nav-links a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #3f51b5;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  color: #3f51b5;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.contact i {
+  margin-right: 5px;
+}
+
+.appointment-btn {
+  background-color: #3f51b5;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.appointment-btn:hover {
+  background-color: #32408f;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url('https://preview.colorlib.com/theme/laundry/assets/img/hero/hero2.png'); /*  background image */
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-top: 70px; /* To push below navbar */
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 15%;
+}
+
+.hero-content {
+  color: white;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.explore-btn {
+  background-color: #3f51b5;
+   color: #fff;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.explore-btn:hover {
+  background-color: #2e3e94;
+}
+
+
+
+/*section-2*/
+.top-heading {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  
+}
+
+/* Correct class name: feature-image */
+.feature-image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding: 40px 10%;
+}
+
+/* Apply width to children inside feature-image */
+.feature-image > div {
+  width: 50%;
+}
+
+/* Optional: make image responsive */
+.image-container img {
+  width: 90%;
+  height: auto;
+  display: block;
+}
+
+.text-container,top-heading{
+  font-size: 15px;
+  -right: 30px;
+}
+
+.top-heading, button{
+  padding-right: 60px;
+  color:#3f51b5;
+  font-size: 20px;
+  margin:20px;
+}
+
+/*section-3*/
+/* Correct container styling */
+.Process {
+  text-align: center;
+  padding: 40px 10%;
+}
+
+/* Styling for the button */
+.Process button {
+  background-color: lightskyblue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+/* Main heading */
+.Process h1 {
+  color: lightslategray;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+/* Flex layout for icon sections */
+.icons {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Each column inside icons */
+.icons > div {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Icon section text styling */
+.icons h2 {
+  color: lightslategray;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  margin: 15px 0 10px;
+}
+
+.icons p {
+  font-size: 13px;
+  color: #333;
+  line-height: 1.6;
+}
+
+/*section-4*/
+.wrapper {
+  background-image: url("https://preview.colorlib.com/theme/laundry/assets/img/gallery/section_bg01.png");
+  width: 80%;
+  height: 180px;
+  margin: 40px auto;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.head-8 {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.containers {
+  color: white;
+  font-size: 14px;
+}
+
+.sec-4 {
+  width: 50%;
+}
+
+.sec-4-1 {
+  width: 50%;
+  text-align: right;
+}
+
+.btn-group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+.phone-icon {
+  font-size: 24px;
+  color: white;
+  background-color: #6b7cff;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.sec-4-1 > .btn-group > button {
+  width: 130px;
+  height: 50px;
+  background-color: #6b7cff;
+  color: white;
+  border-radius: 50px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/*section-5*/
+.maintain {
+  text-align: center;
+  padding: 40px 10%;
+}
+
+/* Section Title */
+.rate button {
+  background-color: lightskyblue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.rate h1 {
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+/* Achievements Grid */
+.achievements {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.achievements h3 {
+  color: lightskyblue;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.achievements p {
+  font-size: 13px;
+  color: black;
+  max-width: 250px;
+  margin: auto;
+}
+
+/* Footer Image Styling */
+.footer-img {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.footer-img img {
+  width: 85%;
+  max-width: 800px;
+}
+
+/*section-6*/
+.map {
+  width: 100%;
+}
+
+/* Ensure image fills container responsively */
+.map img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/*section-7*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  
+}
+
+/* HEADER FLEX */
+header {
+  background-color: #f7f7f7;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.logo {
+  display: flex;
+  align-items: flex-start;
+}
+
+.logo img {
+  width: 30px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-text span {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.logo-text p {
+  font-size: 10px;
+  color: #777;
+  margin: 0;
+}
+
+
+/* Social icons */
+.facebook {
+  background-image: url('https://cdn-icons-png.flaticon.com/512/733/733547.png');
+ 
+}
+
+.twitter {
+  background-image: url('https://cdn-icons-png.flaticon.com/512/733/733579.png');
+}
+
+.pinterest {
+  background-image: url('https://cdn-icons-png.flaticon.com/512/733/733558.png');
+}
+
+
+/* SERVICES SECTION */
+.services ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+}
+
+.services li {
+  margin-bottom: 10px;
+}
+
+.get-in-touch h2,
+.services h2 {
+  margin-top: 0;
+}
+
+.get-in-touch p3 {
+  margin-bottom: 10px;
+  color: skyblue;
+  font-size: 17px;
+}
+.get-in-touch p{
+  font-size: 13px;
+}
+
+/* MAIN FLEX */
+main {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* SOCIAL MEDIA FLEX */
+.social-media {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.social-media a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* FOOTER FLEX */
+footer {
+  background-color: white;
+  padding: 10px;
+  color:black;
+  text-align: center;
+  font-size: 13px;
+}
